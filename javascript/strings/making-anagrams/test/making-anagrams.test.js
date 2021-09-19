@@ -5,9 +5,7 @@ test('test with an empty string', () => {
     expect(makeAnagram('abc', '')).toBe(3)
 })
 
-test('test with two identical strings', () => {
-    expect(makeAnagram('abc', 'abc')).toBe(0)
-})
+
 
 test('unrepeated strings', () => {
     expect(makeAnagram('cde', 'abc')).toBe(4)
